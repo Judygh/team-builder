@@ -4,23 +4,19 @@ import styled from 'styled-components';
 const FormWrapper = styled.div`
     display:flex;
     flex-direction: column;
-
 `;
 
 const InputBox = styled.div`
     padding-bottom:1em;
+    magin:auto;
 `;
 
 const Button = styled.button`
-  color: palevioletred;
-  background-color:cornflowerblue;
+  background-color:white;
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
-  border: 2px solid palevioletred;
   border-radius: 3px;
-  &:hover{
-    transform: scale(1.2)
 }
 `;
 

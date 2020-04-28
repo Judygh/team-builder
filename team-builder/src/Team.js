@@ -4,26 +4,22 @@ import styled from "styled-components";
 const H2 = styled.h2`
   
     color: white;
-    text-shadow: 1px 2px 2px black;
     text-align:center;
 `;
 
 const P = styled.p`
-    color:white;
+    color:#C4C4C4;
     text-align:center;
-    text-shadow: 1px 2px 3px black
 `;
 
 const TeamCard = styled.div`
-
     display:flex;
     flex-wrap: wrap;
 
 `;
 
 const TheTeam = styled.div`
-    background:orange;
-    box-shadow: 0 5px 10px grey;
+    background:#373737;
     width: 100%;
     max-width: 250px;
     padding: 10px;
@@ -32,12 +28,10 @@ const TheTeam = styled.div`
 `;
 
 const Button = styled.button`
-    color: palevioletred;
-    background-color:cornflowerblue;
+    background-color:white;
     font-size: 1em;
     margin: 1em;
     padding: 0.25em 1em;
-    border: 2px solid palevioletred;
     border-radius: 3px;
     
 `;

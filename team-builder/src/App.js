@@ -34,8 +34,7 @@ import styled from "styled-components";
 const H1 = styled.h1`
   font-family: 'Kanit', sans-serif;
   color:white;
-  font-size: 3.5em;
-  text-shadow: 3px 3px 3px orange;  
+  font-size: 3.5em;f
   border-bottom: 5px double orange;
 `;
   const names = [
